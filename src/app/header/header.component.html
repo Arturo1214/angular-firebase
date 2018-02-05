@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-
+          toggle="collapse" data-target="#containerNavbar" aria-
+          controls="containerNavbar" aria-expanded="false" aria-label="Toggle
+navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="/">Compras App</a>
+  <div class="collapse navbar-collapse" id="containerNavbar">
+    <ul class="navbar-nav mr-auto w-100 justify-content-end">
+      <li class="nav-item" routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}">
+        <a  routerLink="/">Inicio </a> 1
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a routerLink="/proveedores">Proveedores </a> 2
+      </li>
+    </ul>
+  </div>
+</nav>
